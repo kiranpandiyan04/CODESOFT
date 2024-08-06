@@ -1,0 +1,105 @@
+.projects-container {
+  padding: 4rem 2rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text
+{
+  visibility: hidden;
+}
+.project-card-1 {
+  background-color: #111;
+  background-image: url('/images/land.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  padding: 2rem;
+  margin: 1rem;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.project-card-1:hover .text {
+  visibility: visible;
+}
+.project-card-1:hover{
+  
+  background-image: none;
+}
+.project-card-3 {
+  background-color: #111;
+  background-image: url('/images/tic.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  padding: 2rem;
+  margin: 1rem;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.project-card-3:hover .text {
+  visibility: visible;
+}
+.project-card-3:hover{
+  
+  background-image: none;
+}
+.project-card-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  text-align: center;
+  background-color: #111;
+  /* background-image: url('/images/ti.png'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  padding: 2rem;
+  margin: 1rem;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.project-card-2:hover .text {
+  visibility: visible;
+}
+.project-card-2:hover{
+  
+  background-image: none;
+}
+
+.text h2 {
+  color: #ff005c;
+
+}
+
+@media screen and (min-width: 1000px) {
+  .projects-content {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

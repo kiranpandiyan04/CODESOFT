@@ -1,0 +1,27 @@
+.about-me-container {
+  padding: 4rem 2rem;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+}
+
+
+.about-me-container h2 {
+  color: #ff005c;
+}
+
+.about-me-container p {
+  margin: 1rem 0;
+}
+
+
+@media screen and (min-width: 768px) {
+  .about-me-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .about-me-text {
+    text-align: left;
+  }
+}
